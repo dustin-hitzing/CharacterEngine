@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xamForms:ReactiveContentPage 
+    x:TypeArguments="vm:CharacterSheetMainViewModel" 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:CharacterManager.ViewModels;assembly=CharacterManager"
+    xmlns:rxui="clr-namespace:ReactiveUI;assembly=ReactiveUI.XamForms"
+    xmlns:xamForms="clr-namespace:ReactiveUI.XamForms;assembly=ReactiveUI.XamForms"
+    x:Class="CharacterManager.Views.CharacterSheetMainPage">
+
+    <StackLayout HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+        <FlexLayout HorizontalOptions="FillAndExpand"
+                    VerticalOptions="StartAndExpand">
+            <StackLayout x:Name="characterInfo" 
+                         FlexLayout.Basis="33%">
+                <Label x:Name="characterName"/>
+                <Label x:Name="trait"/>
+                <Label x:Name="traitDescription"/>
+                <Label Text="LIFE"/>
+                <!--TODO: Add Stepper for LIFE-->
+            </StackLayout>
+            <StackLayout x:Name="characterStats" 
+                         FlexLayout.Basis="33%">
+                <FlexLayout>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="MIGHT" HorizontalTextAlignment="Center"/>
+                            <Label x:Name="might" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="AGILITY" HorizontalTextAlignment="Center"/>
+                            <Label x:Name="agility" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="VIGOR" HorizontalTextAlignment="Center"/>
+                            <Label x:Name="vigor" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="INSIGHT" HorizontalTextAlignment="Center"/>
+                            <Label x:Name="insight" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="SPIRIT" HorizontalTextAlignment="Center"/>
+                            <Label x:Name="spirit" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </Frame>
+                </FlexLayout>
+                <FlexLayout>
+                    <StackLayout>
+                        <Label Text="GRIT"/>
+                        <!--TODO: Add Stepper for GRIT-->
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="TRAUMA"/>
+                        <!--TODO: Add *CHECKBOXES* for TRAUMA-->
+                    </StackLayout>
+                </FlexLayout>
+            </StackLayout>
+            <StackLayout x:Name="damage" 
+                         FlexLayout.Basis="33%">
+                <Label Text="DAMAGE"/>
+            </StackLayout>
+        </FlexLayout>
+        <FlexLayout HorizontalOptions="FillAndExpand"
+                    VerticalOptions="EndAndExpand">
+            <StackLayout FlexLayout.Basis="33%"
+                         Margin="20">
+                
+                <Editor x:Name="notes"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout FlexLayout.Basis="33%">
+                <Label Text="Talents"/>
+                <CollectionView x:Name="talents">
+
+                </CollectionView>
+            </StackLayout>
+            <StackLayout FlexLayout.Basis="33%">
+                <Label Text="Items"/>
+                <CollectionView x:Name="items">
+
+                </CollectionView>
+            </StackLayout>
+            
+        </FlexLayout>
+    </StackLayout>
+</xamForms:ReactiveContentPage>

@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "PlUzOZ51RKJHU2cojFknm0tV0JMMYw7iH/b2nRU7iRDdBp3PPwLnh3L2oEfd9vJAH+WF1e6NxMV9CvhoR/Zzdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dusti\\.nuget\\packages\\dynamicdata\\6.16.6\\dynamicdata.6.16.6.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\fody\\6.2.4\\fody.6.2.4.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\pharmacist.common\\1.8.1\\pharmacist.common.1.8.1.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\reactiveui\\11.5.35\\reactiveui.11.5.35.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\reactiveui.events\\11.5.35\\reactiveui.events.11.5.35.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\reactiveui.events.xamforms\\11.5.35\\reactiveui.events.xamforms.11.5.35.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\reactiveui.fody\\11.5.35\\reactiveui.fody.11.5.35.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\reactiveui.validation\\1.5.5\\reactiveui.validation.1.5.5.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\reactiveui.xamforms\\11.5.35\\reactiveui.xamforms.11.5.35.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\splat\\9.5.20\\splat.9.5.20.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\system.reactive\\4.4.1\\system.reactive.4.4.1.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\dusti\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
+  ],
+  "logs": []
+}

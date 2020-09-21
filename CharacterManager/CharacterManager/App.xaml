@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CharacterManager.App">
+    <Application.Resources>
+        <Color x:Key="OrangeLight">#ED7868</Color>
+        <Color x:Key="OrangeMed">#CE5949</Color>
+        <Color x:Key="Orange">#E6412B</Color>
+        <Color x:Key="GreyLight">#CCCCCC</Color>
+        <Color x:Key="GreyMed">#AFAFAF</Color>
+        <Color x:Key="Grey">#949494</Color>
+        <Color x:Key="BlueGrey">#8A8F94</Color>
+        <Color x:Key="GreyWarm">#6D6E71</Color>
+        <Color x:Key="GreyDark">#414243</Color>
+        <Color x:Key="BlueLight">#6FA3D1</Color>
+    </Application.Resources>
+</Application>
