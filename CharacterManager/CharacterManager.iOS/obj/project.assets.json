@@ -2154,24 +2154,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dusti\\.nuget\\packages\\": {},
+    "C:\\Users\\terra\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj",
       "projectName": "CharacterManager.iOS",
-      "projectPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj",
-      "packagesPath": "C:\\Users\\dusti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.iOS\\obj\\",
+      "projectPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj",
+      "packagesPath": "C:\\Users\\terra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\dusti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\terra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2185,8 +2185,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj": {
-              "projectPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj"
+            "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj": {
+              "projectPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj"
             }
           }
         }

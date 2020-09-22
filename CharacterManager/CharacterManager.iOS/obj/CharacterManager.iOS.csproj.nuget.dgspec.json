@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj": {}
+    "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj": {
+    "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj",
         "projectName": "CharacterManager.iOS",
-        "projectPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj",
-        "packagesPath": "C:\\Users\\dusti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.iOS\\obj\\",
+        "projectPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj",
+        "packagesPath": "C:\\Users\\terra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\dusti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\terra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj": {
-                "projectPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj"
+              "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj": {
+                "projectPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj"
               }
             }
           }
@@ -89,20 +89,20 @@
         }
       }
     },
-    "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj": {
+    "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj",
+        "projectUniqueName": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj",
         "projectName": "CharacterManager",
-        "projectPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj",
-        "packagesPath": "C:\\Users\\dusti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\obj\\",
+        "projectPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj",
+        "packagesPath": "C:\\Users\\terra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\dusti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\terra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

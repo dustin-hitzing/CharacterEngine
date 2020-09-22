@@ -1,1 +1,1 @@
-C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\CharacterManager.UWP.csproj;x86
+C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\CharacterManager.UWP.csproj;x86

@@ -2556,24 +2556,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dusti\\.nuget\\packages\\": {},
+    "C:\\Users\\terra\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.Android\\CharacterManager.Android.csproj",
+      "projectUniqueName": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.Android\\CharacterManager.Android.csproj",
       "projectName": "CharacterManager.Android",
-      "projectPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.Android\\CharacterManager.Android.csproj",
-      "packagesPath": "C:\\Users\\dusti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.Android\\obj\\",
+      "projectPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.Android\\CharacterManager.Android.csproj",
+      "packagesPath": "C:\\Users\\terra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\dusti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\terra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2587,8 +2587,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj": {
-              "projectPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj"
+            "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj": {
+              "projectPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj"
             }
           }
         }

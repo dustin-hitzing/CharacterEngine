@@ -10,84 +10,159 @@
     x:Class="CharacterManager.Views.CharacterSheetMainPage">
 
     <StackLayout HorizontalOptions="FillAndExpand"
-                 VerticalOptions="FillAndExpand">
+                 VerticalOptions="FillAndExpand"
+                 BackgroundColor="{StaticResource Grey}">
         <FlexLayout HorizontalOptions="FillAndExpand"
                     VerticalOptions="StartAndExpand">
             <StackLayout x:Name="characterInfo" 
-                         FlexLayout.Basis="33%">
-                <Label x:Name="characterName"/>
-                <Label x:Name="trait"/>
-                <Label x:Name="traitDescription"/>
-                <Label Text="LIFE"/>
-                <!--TODO: Add Stepper for LIFE-->
+                         FlexLayout.Basis="33%"
+                         Margin="20,0,10,0">
+                <Label x:Name="characterName" Text="Jane" Style="{StaticResource HighVis}"/>
+                <Label x:Name="trait" Text="Gambling Vice" Style="{StaticResource Title}"/>
+                <Label x:Name="traitDescription" Text="Fighting in underground matches" Style="{StaticResource Description}"/>
+                <Label Text="LIFE" Style="{StaticResource MedHeaders}"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Frame Style="{StaticResource StepperFrame}">
+                        <Label Text="-" Style="{StaticResource MedHeaders}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+                    </Frame>
+                    <Frame Style="{StaticResource MaxCurrentFrame}">
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="healthCurrent" Text="9" Style="{StaticResource HighVis}"/>
+                            <Label Text="/" Style="{StaticResource HighVis}"/>
+                            <Label x:Name="healthMax" Text="12" Style="{StaticResource HighVis}"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Style="{StaticResource StepperFrame}">
+                        <Label Text="+" Style="{StaticResource MedHeaders}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+                    </Frame>
+                </StackLayout>
+                <!--TODO: Add Stepper for LIFE - see above for my attempt at adding necessary elements -->
             </StackLayout>
+            
             <StackLayout x:Name="characterStats" 
-                         FlexLayout.Basis="33%">
+                         FlexLayout.Basis="33%"
+                         Margin="10,0,10,0">
+                <Frame BackgroundColor="{StaticResource Orange}" CornerRadius="4" HorizontalOptions="FillAndExpand" Margin="0,0,0,20">
+                    <Label x:Name="class" Text="Sentinel" FontSize="Header" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                </Frame>
                 <FlexLayout>
-                    <Frame>
+                    <Frame Style="{StaticResource StatFrame}">
                         <StackLayout>
-                            <Label Text="MIGHT" HorizontalTextAlignment="Center"/>
-                            <Label x:Name="might" HorizontalTextAlignment="Center"/>
+                            <Label Text="MIGHT" Style="{StaticResource StatHeaders}"/>
+                            <Label x:Name="might" Text="2" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="White" FontSize="Large"/>
                         </StackLayout>
                     </Frame>
-                    <Frame>
+                    <Frame Style="{StaticResource StatFrame}">
                         <StackLayout>
-                            <Label Text="AGILITY" HorizontalTextAlignment="Center"/>
-                            <Label x:Name="agility" HorizontalTextAlignment="Center"/>
+                            <Label Text="AGILITY" Style="{StaticResource StatHeaders}"/>
+                            <Label x:Name="agility" Text="1" Style="{StaticResource StatNumbers}"/>
                         </StackLayout>
                     </Frame>
-                    <Frame>
+                    <Frame Style="{StaticResource StatFrame}">
                         <StackLayout>
-                            <Label Text="VIGOR" HorizontalTextAlignment="Center"/>
-                            <Label x:Name="vigor" HorizontalTextAlignment="Center"/>
+                            <Label Text="VIGOR" Style="{StaticResource StatHeaders}"/>
+                            <Label x:Name="vigor" Text="1" Style="{StaticResource StatNumbers}"/>
                         </StackLayout>
                     </Frame>
-                    <Frame>
+                    <Frame Style="{StaticResource StatFrame}">
                         <StackLayout>
-                            <Label Text="INSIGHT" HorizontalTextAlignment="Center"/>
-                            <Label x:Name="insight" HorizontalTextAlignment="Center"/>
+                            <Label Text="INSIGHT" Style="{StaticResource StatHeaders}"/>
+                            <Label x:Name="insight" Text="0" Style="{StaticResource StatNumbers}"/>
                         </StackLayout>
                     </Frame>
-                    <Frame>
+                    <Frame Style="{StaticResource StatFrame}">
                         <StackLayout>
-                            <Label Text="SPIRIT" HorizontalTextAlignment="Center"/>
-                            <Label x:Name="spirit" HorizontalTextAlignment="Center"/>
+                            <Label Text="SPIRIT" Style="{StaticResource StatHeaders}"/>
+                            <Label x:Name="spirit" Text="-1" Style="{StaticResource StatNumbers}"/>
                         </StackLayout>
                     </Frame>
                 </FlexLayout>
                 <FlexLayout>
                     <StackLayout>
-                        <Label Text="GRIT"/>
-                        <!--TODO: Add Stepper for GRIT-->
+                        <Label Text="GRIT" Style="{StaticResource MedHeaders}"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Frame Style="{StaticResource StepperFrame}">
+                                <Label Text="-" Style="{StaticResource MedHeaders}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+                            </Frame>
+                            <Frame Style="{StaticResource MaxCurrentFrame}">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label x:Name="gritCurrent" Text="3" Style="{StaticResource HighVis}"/>
+                                    <Label Text="/" Style="{StaticResource HighVis}"/>
+                                    <Label x:Name="grithMax" Text="3" Style="{StaticResource HighVis}"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Style="{StaticResource StepperFrame}">
+                                <Label Text="+" Style="{StaticResource MedHeaders}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+                            </Frame>
+                        </StackLayout>
+                        <!--TODO: Add Stepper for GRIT - see above for my attempt-->
                     </StackLayout>
-                    <StackLayout>
-                        <Label Text="TRAUMA"/>
-                        <!--TODO: Add *CHECKBOXES* for TRAUMA-->
+                    <StackLayout Margin="20,0,0,0">
+                        <Label Text="TRAUMA" Style="{StaticResource MedHeaders}"/>
+                        <StackLayout Orientation="Horizontal" BackgroundColor="Fuchsia">
+                            <Frame Style="{StaticResource CheckboxFrame}" BackgroundColor="{StaticResource GreyMed}"></Frame>
+                            <Frame Style="{StaticResource CheckboxFrame}" BackgroundColor="{StaticResource GreyMed}"></Frame>
+                            <Frame Style="{StaticResource CheckboxFrame}" BackgroundColor="{StaticResource GreyMed}"></Frame>
+                            <Frame Style="{StaticResource CheckboxFrame}" BackgroundColor="{StaticResource GreyMed}"></Frame>
+                        </StackLayout>
+                        <!--TODO: Add *CHECKBOXES* for TRAUMA - see above for my attempt-->
                     </StackLayout>
                 </FlexLayout>
             </StackLayout>
             <StackLayout x:Name="damage" 
-                         FlexLayout.Basis="33%">
-                <Label Text="DAMAGE"/>
+                         FlexLayout.Basis="33%"
+                         Margin="10,0,0,0"
+                         Orientation="Horizontal">
+                <Frame x:Name="Tier1"  Style="{StaticResource StatFrame}">
+                    <StackLayout>
+                        <Label x:Name="tier1" Text="TIER 1" Style="{StaticResource MedHeaders}" HorizontalTextAlignment="Center"/>
+                        <Label x:Name="tier1Definition" Text="Unarmed &amp; Light Weapons" Style="{StaticResource Definition}"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label x:Name="tier1Amount"  Text="D4" Style="{StaticResource StatNumbers}" HorizontalTextAlignment="Center"/>
+                            <Label x:Name="tier1Modifier" Text="+1" Style="{StaticResource ColorEmphasis}" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame x:Name="Tier2"  Style="{StaticResource StatFrame}">
+                    <StackLayout>
+                        <Label x:Name="tier2" Text="TIER 2" Style="{StaticResource MedHeaders}" HorizontalTextAlignment="Center"/>
+                        <Label x:Name="tier2Definition" Text="Unarmed &amp; Light Weapons" Style="{StaticResource Definition}"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label x:Name="tier2Amount"  Text="D8" Style="{StaticResource StatNumbers}"/>
+                            <Label x:Name="tier2Modifier" Style="{StaticResource ColorEmphasis}"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame x:Name="Tier3"  Style="{StaticResource StatFrame}">
+                    <StackLayout>
+                        <Label x:Name="tier3" Text="TIER 3" Style="{StaticResource MedHeaders}" HorizontalTextAlignment="Center"/>
+                        <Label x:Name="tier3Definition" Text="Energy &amp; Explosives" Style="{StaticResource Definition}"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label x:Name="tier3Amount"  Text="D12" Style="{StaticResource StatNumbers}" HorizontalTextAlignment="Center"/>
+                            <Label x:Name="tier3Modifier" Style="{StaticResource ColorEmphasis}" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
             </StackLayout>
         </FlexLayout>
         <FlexLayout HorizontalOptions="FillAndExpand"
                     VerticalOptions="EndAndExpand">
             <StackLayout FlexLayout.Basis="33%"
-                         Margin="20">
-                
-                <Editor x:Name="notes"
+                         Margin="20,0,10,0">
+                <Label Text="Notes" Style="{StaticResource MedHeaders}"/>
+                <Editor x:Name="notes" Style="{StaticResource NotesEntry}"
                         VerticalOptions="FillAndExpand"
                         HorizontalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout FlexLayout.Basis="33%">
-                <Label Text="Talents"/>
+                <Label Text="Talents" Style="{StaticResource MedHeaders}"/>
                 <CollectionView x:Name="talents">
 
                 </CollectionView>
             </StackLayout>
             <StackLayout FlexLayout.Basis="33%">
-                <Label Text="Items"/>
+                <Label Text="Items" Style="{StaticResource MedHeaders}"/>
                 <CollectionView x:Name="items">
 
                 </CollectionView>

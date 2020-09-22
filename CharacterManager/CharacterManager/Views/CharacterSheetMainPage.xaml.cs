@@ -20,11 +20,11 @@ namespace CharacterManager.Views
             InitializeComponent();
             ViewModel = new CharacterSheetMainViewModel();
 
-            this.WhenActivated(disposable =>
-            {
-                this.Bind(ViewModel, x => x.Name, x => x.characterName.Text)
-                    .DisposeWith(disposable);
-            });
+            //this.WhenActivated(disposable =>
+            //{
+                //this.Bind(ViewModel, x => x.Name, x => x.characterName.Text)
+                    //.DisposeWith(disposable);
+            //});
         }
     }
 }

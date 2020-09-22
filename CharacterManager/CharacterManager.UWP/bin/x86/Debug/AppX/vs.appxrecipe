@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-8E9ESMM</Machine>
-    <WindowsUser>dusti</WindowsUser>
+    <Machine>LAPTOP-F9N5704B</Machine>
+    <WindowsUser>terra</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=66cf7dd5-36ad-4066-b825-f2509ba1e418</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>A6DB55C046253C46D39927ED2A23A25486D6AA622D66A481F6CA4FD5808C5BD7</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>DE389DB80E6BF72265968CE0B338091A25776065D5D0426BA815CE1E6099619F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3a269ca8-6f8e-4b07-9541-293b7bd47de7_1.0.0.0_x86__nmyabax7nhz4t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3a269ca8-6f8e-4b07-9541-293b7bd47de7_nmyabax7nhz4t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3a269ca8-6f8e-4b07-9541-293b7bd47de7</RegisteredPackageID>
@@ -27,50 +27,50 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-13T02:44:52.602</Modified>
+      <Modified>2020-09-21T20:58:17.847</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\bin\x86\Debug\CharacterManager.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\bin\x86\Debug\CharacterManager.UWP.exe">
       <PackagePath>entrypoint\CharacterManager.UWP.exe</PackagePath>
-      <Modified>2020-09-13T02:44:50.275</Modified>
+      <Modified>2020-09-21T20:58:16.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\dynamicdata\6.16.6\lib\uap10.0.16299\DynamicData.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\dynamicdata\6.16.6\lib\uap10.0.16299\DynamicData.dll">
       <PackagePath>DynamicData.dll</PackagePath>
       <Modified>2020-08-11T08:42:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\pharmacist.common\1.8.1\lib\netstandard2.0\Pharmacist.Common.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\pharmacist.common\1.8.1\lib\netstandard2.0\Pharmacist.Common.dll">
       <PackagePath>Pharmacist.Common.dll</PackagePath>
       <Modified>2020-08-20T05:41:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\reactiveui\11.5.35\lib\uap10.0.16299\ReactiveUI.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\reactiveui\11.5.35\lib\uap10.0.16299\ReactiveUI.dll">
       <PackagePath>ReactiveUI.dll</PackagePath>
       <Modified>2020-08-28T09:23:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\reactiveui.events\11.5.35\lib\uap10.0.16299\ReactiveUI.Events.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\reactiveui.events\11.5.35\lib\uap10.0.16299\ReactiveUI.Events.dll">
       <PackagePath>ReactiveUI.Events.dll</PackagePath>
       <Modified>2020-08-28T09:23:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\reactiveui.events.xamforms\11.5.35\lib\netstandard2.0\ReactiveUI.Events.XamForms.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\reactiveui.events.xamforms\11.5.35\lib\netstandard2.0\ReactiveUI.Events.XamForms.dll">
       <PackagePath>ReactiveUI.Events.XamForms.dll</PackagePath>
       <Modified>2020-08-28T09:23:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\reactiveui.fody\11.5.35\lib\uap10.0.16299\ReactiveUI.Fody.Helpers.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\reactiveui.fody\11.5.35\lib\uap10.0.16299\ReactiveUI.Fody.Helpers.dll">
       <PackagePath>ReactiveUI.Fody.Helpers.dll</PackagePath>
       <Modified>2020-08-28T09:23:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\reactiveui.validation\1.5.5\lib\netstandard2.0\ReactiveUI.Validation.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\reactiveui.validation\1.5.5\lib\netstandard2.0\ReactiveUI.Validation.dll">
       <PackagePath>ReactiveUI.Validation.dll</PackagePath>
       <Modified>2020-07-28T14:08:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\reactiveui.xamforms\11.5.35\lib\netstandard2.0\ReactiveUI.XamForms.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\reactiveui.xamforms\11.5.35\lib\netstandard2.0\ReactiveUI.XamForms.dll">
       <PackagePath>ReactiveUI.XamForms.dll</PackagePath>
       <Modified>2020-08-28T09:23:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\refractored.mvvmhelpers\1.6.2\lib\netstandard2.0\MvvmHelpers.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\refractored.mvvmhelpers\1.6.2\lib\netstandard2.0\MvvmHelpers.dll">
       <PackagePath>MvvmHelpers.dll</PackagePath>
       <Modified>2020-05-27T08:48:32.000</Modified>
     </AppxPackagedFile>
@@ -78,19 +78,19 @@
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T23:16:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\splat\9.5.20\lib\uap10.0.16299\Splat.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\splat\9.5.20\lib\uap10.0.16299\Splat.dll">
       <PackagePath>Splat.dll</PackagePath>
       <Modified>2020-08-04T05:38:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\system.reactive\4.4.1\lib\uap10.0.16299\System.Reactive.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\system.reactive\4.4.1\lib\uap10.0.16299\System.Reactive.dll">
       <PackagePath>System.Reactive.dll</PackagePath>
       <Modified>2020-04-03T00:09:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2020-02-19T15:05:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T07:58:38.000</Modified>
     </AppxPackagedFile>
@@ -98,253 +98,253 @@
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
       <Modified>2020-05-12T04:41:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2020-08-06T08:12:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
       <Modified>2020-08-06T08:12:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
       <Modified>2020-08-06T08:12:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2020-08-06T08:12:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager\bin\Debug\netstandard2.0\CharacterManager.dll">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager\bin\Debug\netstandard2.0\CharacterManager.dll">
       <PackagePath>CharacterManager.dll</PackagePath>
-      <Modified>2020-09-13T02:44:42.194</Modified>
+      <Modified>2020-09-22T04:15:21.442</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
       <Modified>2016-11-30T07:58:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-19T01:36:56.000</Modified>
+      <Modified>2019-03-18T22:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-08-06T08:12:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.797</Modified>
+      <Modified>2020-09-21T01:29:57.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.799</Modified>
+      <Modified>2020-09-21T01:29:57.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.801</Modified>
+      <Modified>2020-09-21T01:29:57.394</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.803</Modified>
+      <Modified>2020-09-21T01:29:57.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.805</Modified>
+      <Modified>2020-09-21T01:29:57.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.807</Modified>
+      <Modified>2020-09-21T01:29:57.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.809</Modified>
+      <Modified>2020-09-21T01:29:57.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.815</Modified>
+      <Modified>2020-09-21T01:29:57.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.818</Modified>
+      <Modified>2020-09-21T01:29:57.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.820</Modified>
+      <Modified>2020-09-21T01:29:57.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.822</Modified>
+      <Modified>2020-09-21T01:29:57.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.824</Modified>
+      <Modified>2020-09-21T01:29:57.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.825</Modified>
+      <Modified>2020-09-21T01:29:57.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.828</Modified>
+      <Modified>2020-09-21T01:29:57.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.830</Modified>
+      <Modified>2020-09-21T01:29:57.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.907</Modified>
+      <Modified>2020-09-21T01:29:57.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.908</Modified>
+      <Modified>2020-09-21T01:29:57.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.910</Modified>
+      <Modified>2020-09-21T01:29:57.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.911</Modified>
+      <Modified>2020-09-21T01:29:57.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.931</Modified>
+      <Modified>2020-09-21T01:29:57.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.987</Modified>
+      <Modified>2020-09-21T01:29:57.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.990</Modified>
+      <Modified>2020-09-21T01:29:57.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.991</Modified>
+      <Modified>2020-09-21T01:29:57.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:36.993</Modified>
+      <Modified>2020-09-21T01:29:57.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:37.052</Modified>
+      <Modified>2020-09-21T01:29:57.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:37.055</Modified>
+      <Modified>2020-09-21T01:29:57.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-23T04:50:37.058</Modified>
+      <Modified>2020-09-21T01:29:57.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-08-23T04:50:37.064</Modified>
+      <Modified>2020-09-21T01:29:57.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\bin\x86\Debug\CharacterManager.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\bin\x86\Debug\CharacterManager.UWP.xr.xml">
       <PackagePath>CharacterManager.UWP.xr.xml</PackagePath>
-      <Modified>2020-08-23T04:56:40.329</Modified>
+      <Modified>2020-09-21T01:32:33.383</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-13T02:44:49.946</Modified>
+      <Modified>2020-09-21T20:58:15.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-13T02:44:49.946</Modified>
+      <Modified>2020-09-21T20:58:15.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
-      <Modified>2019-03-19T01:43:58.000</Modified>
+      <Modified>2019-03-18T22:43:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-19T00:33:42.000</Modified>
+      <Modified>2019-03-18T21:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-05-19T13:27:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-13T02:44:51.323</Modified>
+      <Modified>2020-09-21T19:53:39.600</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dusti\source\repos\CharacterManager\CharacterManager\CharacterManager.UWP\bin\x86\Debug\Core\CharacterManager.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\bin\x86\Debug\Core\CharacterManager.UWP.exe">
       <PackagePath>CharacterManager.UWP.exe</PackagePath>
-      <Modified>2020-09-13T02:44:52.596</Modified>
+      <Modified>2020-09-21T20:58:17.835</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>Win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\dusti\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\terra\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

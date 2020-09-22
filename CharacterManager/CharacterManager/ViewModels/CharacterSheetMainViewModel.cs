@@ -1,4 +1,5 @@
-﻿using ReactiveUI;
+﻿using CharacterManager.Models;
+using ReactiveUI;
 using ReactiveUI.Fody.Helpers;
 
 namespace CharacterManager.ViewModels
@@ -10,7 +11,7 @@ namespace CharacterManager.ViewModels
 
         public CharacterSheetMainViewModel()
         {
-            Name = "Wow this is an awesome start!";
+      
         }
     }
 }

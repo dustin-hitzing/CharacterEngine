@@ -11019,18 +11019,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dusti\\.nuget\\packages\\": {},
+    "C:\\Users\\terra\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.UWP\\CharacterManager.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.UWP\\CharacterManager.UWP.csproj",
       "projectName": "CharacterManager.UWP",
-      "projectPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.UWP\\CharacterManager.UWP.csproj",
-      "packagesPath": "C:\\Users\\dusti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager.UWP\\obj\\",
+      "projectPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.UWP\\CharacterManager.UWP.csproj",
+      "packagesPath": "C:\\Users\\terra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -11038,7 +11038,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\dusti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\terra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -11052,8 +11052,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj": {
-              "projectPath": "C:\\Users\\dusti\\Documents\\Code\\CharacterManager\\CharacterManager\\CharacterManager\\CharacterManager.csproj"
+            "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj": {
+              "projectPath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager\\CharacterManager.csproj"
             }
           }
         }

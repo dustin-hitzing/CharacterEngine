@@ -3,15 +3,101 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CharacterManager.App">
     <Application.Resources>
-        <Color x:Key="OrangeLight">#ED7868</Color>
-        <Color x:Key="OrangeMed">#CE5949</Color>
-        <Color x:Key="Orange">#E6412B</Color>
-        <Color x:Key="GreyLight">#CCCCCC</Color>
-        <Color x:Key="GreyMed">#AFAFAF</Color>
-        <Color x:Key="Grey">#949494</Color>
-        <Color x:Key="BlueGrey">#8A8F94</Color>
-        <Color x:Key="GreyWarm">#6D6E71</Color>
-        <Color x:Key="GreyDark">#414243</Color>
-        <Color x:Key="BlueLight">#6FA3D1</Color>
+
+        <ResourceDictionary>
+            <Color x:Key="OrangeLight">#ED7868</Color>
+            <Color x:Key="OrangeMed">#CE5949</Color>
+            <Color x:Key="Orange">#E6412B</Color>
+            <Color x:Key="GreyLight">#CCCCCC</Color>
+            <Color x:Key="GreyMed">#AFAFAF</Color>
+            <Color x:Key="Grey">#949494</Color>
+            <Color x:Key="BlueGrey">#8A8F94</Color>
+            <Color x:Key="GreyWarm">#6D6E71</Color>
+            <Color x:Key="GreyDark">#414243</Color>
+            <Color x:Key="BlueLight">#6FA3D1</Color>
+            
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="Calibri"/>
+            </Style>
+            <Style x:Key="NotesEntry" TargetType="Entry">
+                <Setter Property="FontFamily" Value="Calibri"/>
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource GreyMed}"/>
+            </Style>
+            <Style x:Key="WizardEntry" TargetType="Entry">
+                <Setter Property="FontFamily" Value="Calibri"/>
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
+            
+            <Style x:Key="StatHeaders" TargetType="Label">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            <Style x:Key="MedHeaders" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            <Style x:Key="HighVis" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            <Style x:Key="Title" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            <Style x:Key="Description" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
+            <Style x:Key="ColorEmphasis" TargetType="Label">
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="TextColor" Value="{StaticResource OrangeMed}"/>
+            </Style>
+            <Style x:Key="Definition" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="{StaticResource GreyWarm}"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            <Style x:Key="StatNumbers" TargetType="Label">
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+
+            <Style x:Key="StepperFrame" TargetType="Frame">
+                <Setter Property="BorderColor" Value="{StaticResource GreyWarm}"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource GreyMed}"/>
+                <Setter Property="CornerRadius" Value="4"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="WidthRequest" Value="20"/>
+                <Setter Property="HeightRequest" Value="20"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="MaxCurrentFrame" TargetType="Frame">
+                <Setter Property="BorderColor" Value="{StaticResource GreyWarm}"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource GreyMed}"/>
+                <Setter Property="CornerRadius" Value="4"/>
+                <Setter Property="Padding" Value="10,0,10,0"/>
+            </Style>
+            <Style x:Key="StatFrame" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{StaticResource GreyMed}"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="Margin" Value="0,0,10,0"/>
+                <Setter Property="CornerRadius" Value="4"/>
+            </Style>
+            <Style x:Key="CheckboxFrame" TargetType="Frame">
+                <Setter Property="BorderColor" Value="{StaticResource GreyWarm}"/>
+                <Setter Property="CornerRadius" Value="4"/>
+                <Setter Property="HeightRequest" Value="5"/>
+                <Setter Property="WidthRequest" Value="5"/>
+            </Style>
+
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
