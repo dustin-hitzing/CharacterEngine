@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+D8S6tl4YYLAYyvpDO4DSRyfjPY3iGc9XSSZ7YLo0FMFjbYPQabEeZXi2MwB74/RsxiRHXSazqGp6aP3G00bNg==",
+  "dgSpecHash": "17ipJz26kaeGxB4Xvskzzv1YxiMQ7B9vOUnVOKGmsK0+V0TRqJw1lY8Fo1ruyaSl4sKfGf9U9bdqd18UA0mnOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.Android\\CharacterManager.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\terra\\.nuget\\packages\\dynamicdata\\6.16.6\\dynamicdata.6.16.6.nupkg.sha512",
     "C:\\Users\\terra\\.nuget\\packages\\fody\\6.2.4\\fody.6.2.4.nupkg.sha512",
+    "C:\\Users\\terra\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\terra\\.nuget\\packages\\pharmacist.common\\1.8.1\\pharmacist.common.1.8.1.nupkg.sha512",
     "C:\\Users\\terra\\.nuget\\packages\\reactiveui\\11.5.35\\reactiveui.11.5.35.nupkg.sha512",
     "C:\\Users\\terra\\.nuget\\packages\\reactiveui.events\\11.5.35\\reactiveui.events.11.5.35.nupkg.sha512",

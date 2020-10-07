@@ -22,7 +22,7 @@ namespace CharacterManager.Views
 
             //this.WhenActivated(disposable =>
             //{
-                //this.Bind(ViewModel, x => x.Name, x => x.characterName.Text)
+                //this.Bind(ViewModel, x => x., x => x.characterName.Text)
                     //.DisposeWith(disposable);
             //});
         }

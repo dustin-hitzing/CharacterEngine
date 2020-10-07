@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YymFKzOMKZSlEp0kXvQItpIzeTl/cJD/9tLKz14IhAs4JMyimpcNfdPFhvukChCnts2kgsjoCk67e67+CsX/uw==",
+  "dgSpecHash": "SaSua1aaUhaDJ+SENbFWOr7j2a0P82BpaP023M6ARByAqd4YpciE7zwyWcFKHLT0KymY3B8jD8hRm2hhLFPdnw==",
   "success": true,
   "projectFilePath": "C:\\Users\\terra\\Documents\\Coding\\CharacterEngine\\CharacterManager\\CharacterManager.iOS\\CharacterManager.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\terra\\.nuget\\packages\\dynamicdata\\6.16.6\\dynamicdata.6.16.6.nupkg.sha512",
     "C:\\Users\\terra\\.nuget\\packages\\fody\\6.2.4\\fody.6.2.4.nupkg.sha512",
+    "C:\\Users\\terra\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\terra\\.nuget\\packages\\pharmacist.common\\1.8.1\\pharmacist.common.1.8.1.nupkg.sha512",
     "C:\\Users\\terra\\.nuget\\packages\\reactiveui\\11.5.35\\reactiveui.11.5.35.nupkg.sha512",
     "C:\\Users\\terra\\.nuget\\packages\\reactiveui.events\\11.5.35\\reactiveui.events.11.5.35.nupkg.sha512",

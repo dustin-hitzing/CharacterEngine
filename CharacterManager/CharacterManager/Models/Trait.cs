@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CharacterManager.Models
 {
-    class Trait
+    public class Trait
     {
         public string Name { get; set; }
         public string Description { get; set; }

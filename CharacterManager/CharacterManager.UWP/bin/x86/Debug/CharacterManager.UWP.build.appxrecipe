@@ -31,6 +31,9 @@
     <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\dynamicdata\6.16.6\lib\uap10.0.16299\DynamicData.dll">
       <PackagePath>DynamicData.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\pharmacist.common\1.8.1\lib\netstandard2.0\Pharmacist.Common.dll">
       <PackagePath>Pharmacist.Common.dll</PackagePath>
     </AppxPackagedFile>
@@ -96,6 +99,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\terra\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\AdventureImageTest.jpg">
+      <PackagePath>Assets\AdventureImageTest.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\terra\Documents\Coding\CharacterEngine\CharacterManager\CharacterManager.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>

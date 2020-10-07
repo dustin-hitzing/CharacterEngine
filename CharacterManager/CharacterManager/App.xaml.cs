@@ -11,7 +11,8 @@ namespace CharacterManager
         {
             InitializeComponent();
 
-            MainPage = new CharacterSheetMainPage();
+            //MainPage = new CharacterSheetMainPage();
+            MainPage = new CharacterCreationWizard();
         }
     }
 }

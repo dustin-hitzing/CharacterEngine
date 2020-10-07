@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CharacterManager.Models
 {
-    class Character
+    public class Character
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -25,5 +25,6 @@ namespace CharacterManager.Models
         public int Grit { get; set; }
         public string Title { get; set; }
         public Campaign Campaign { get; set; }
+        public CharacterClass CharacterClass { get; set; }
     }
 }

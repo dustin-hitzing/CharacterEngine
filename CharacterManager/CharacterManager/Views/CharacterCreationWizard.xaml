@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xamForms:ReactiveContentPage
+    x:TypeArguments="vm:CharacterCreationWizardViewModel"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:CharacterManager.ViewModels;assembly=CharacterManager"
+    xmlns:rxui="clr-namespace:ReactiveUI;assembly=ReactiveUI.xamForms"
+    xmlns:xamForms="clr-namespace:ReactiveUI.XamForms;assembly=ReactiveUI.XamForms"
+    x:Class="CharacterManager.Views.CharacterCreationWizard">
+
+    <ScrollView>
+        <StackLayout HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand"
+                 BackgroundColor="White"
+                 Margin="20">
+            <StackLayout x:Name="introductionText">
+                <Label Text="We've got a few questions to get you started." FontSize="Header" TextColor="{StaticResource Orange}"/>
+                <Label Text="If you're unsure about any of the following questions or options, ask your GM." FontSize="Medium" TextColor="Black"/>
+            </StackLayout>
+
+            <Frame x:Name="systemChoices" Style="{StaticResource WizardSectionFrame}">
+                <StackLayout Orientation="Horizontal">
+                    <Frame x:Name="adventureBtn" Style="{StaticResource OptionFrame}" Margin="10">
+                        <StackLayout>
+                            <Label Text="Adventure" Style="{StaticResource Title}" HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+            <Frame x:Name="basicCharacterInfo" Style="{StaticResource WizardSectionFrame}">
+                <StackLayout Margin="10">
+                    <Label Text="Who is your character?" Style="{StaticResource RegularHeader}"/>
+                    <FlexLayout HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand">
+                        <StackLayout x:Name="nameLayout"
+                                 FlexLayout.Basis="40%"
+                                 Margin="10,0,10,0">
+                            <Label Text="Name?" Style="{StaticResource Description}"/>
+                            <Entry x:Name="characterName" Placeholder="Secret" Style="{StaticResource WizardEntry}"/>
+                        </StackLayout>
+                        <StackLayout x:Name="backgroundName"
+                                 FlexLayout.Basis="40%"
+                                 Margin="10,0,10,0">
+                            <Label Text="What did they do before?" Style="{StaticResource Description}"/>
+                            <Entry x:Name="characterBackground" Placeholder="Enter your own or generate one." Style="{StaticResource WizardEntry}"/>
+                        </StackLayout>
+                        <StackLayout x:Name="backgroundButtons"
+                                 FlexLayout.Basis="20%"
+                                 Margin="10,0,10,0">
+                            <Frame Style="{StaticResource ButtonFrame}" VerticalOptions="EndAndExpand">
+                                <Label Text="Generate" Style="{StaticResource Title}" HorizontalTextAlignment="Center"/>
+                            </Frame>
+                        </StackLayout>
+                    </FlexLayout>
+                    <FlexLayout x:Name="generatedBackgroundOptions" 
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand"
+                            JustifyContent="SpaceEvenly"
+                            Margin="10"
+                            Wrap="Wrap">
+                        <Frame x:Name="backgroundOption1Frame" Style="{StaticResource LongOptionFrame}" HeightRequest="100">
+                            <Label x:Name="backgroundOption1" Text="Royal heir that is last in line." Style="{StaticResource Title}" LineBreakMode="CharacterWrap"/>
+                        </Frame>
+                        <Frame x:Name="backgroundOption2Frame" Style="{StaticResource LongOptionFrame}" HeightRequest="100">
+                            <Label x:Name="backgroundOption2" Text="Assassin who replaced a member of a rich and dysfunctional family." Style="{StaticResource Title}" LineBreakMode="CharacterWrap"/>
+                        </Frame>
+                        <Frame x:Name="backgroundOption3Frame" Style="{StaticResource LongOptionFrame}" HeightRequest="100">
+                            <Label x:Name="backgroundOption3" Text="Ratbagger" Style="{StaticResource Title}" LineBreakMode="CharacterWrap"/>
+                        </Frame>
+                        <Frame x:Name="backgroundOption4Frame" Style="{StaticResource LongOptionFrame}" HeightRequest="100">
+                            <Label x:Name="backgroundOption4" Text="Royal Potions Maker" Style="{StaticResource Title}" LineBreakMode="CharacterWrap"/>
+                        </Frame>
+                        <Frame x:Name="backgroundOption5Frame" Style="{StaticResource LongOptionFrame}" HeightRequest="100">
+                            <Label x:Name="backgroundOption5" Text="Science teacher with cancer" Style="{StaticResource Title}" LineBreakMode="CharacterWrap"/>
+                        </Frame>
+                    </FlexLayout>
+                    <StackLayout x:Name="uniqueQuality" Margin="0,10,0,10">
+                        <Label Text="What is one unique thing about your character?" Style="{StaticResource Description}"/>
+                        <Entry x:Name="characterQuality" Placeholder="He hates to make his own decisions." Style="{StaticResource WizardEntry}"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame x:Name="characterClass" Style="{StaticResource WizardSectionFrame}">
+                <StackLayout>
+                    <Label Text="Choose a class." Style="{StaticResource RegularHeader}" Margin="10"/>
+                    <FlexLayout JustifyContent="Start"
+                            Wrap="Wrap"
+                            Margin="0,0,0,20">
+                        <Frame x:Name="classOption1Frame"  Style="{StaticResource OptionFrame}" Margin="10,0,10,0">
+                            <StackLayout>
+                                <Label x:Name="classOptionName" Text="Fighter" Style="{StaticResource Title}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption1Desc1" Text="Soldier" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption1Desc2" Text="Gladiator" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption1Desc3" Text="Samurai" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame x:Name="classOption2Frame" Style="{StaticResource OptionFrame}" Margin="10,0,10,0">
+                            <StackLayout>
+                                <Label x:Name="classOption2Name" Text="Monk" Style="{StaticResource Title}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption2Desc1" Text="Martial Artist" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption2Desc2" Text="Punchy McGee" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption2Desc3" Text="Ninja" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame x:Name="classOption3Frame" Style="{StaticResource OptionFrame}" Margin="10,0,10,0">
+                            <StackLayout>
+                                <Label x:Name="classOption3Name" Text="Barbarian" Style="{StaticResource Title}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption3Desc1" Text="Rage Monster" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption3Desc2" Text="Protector" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption3Desc3" Text="Tank" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame x:Name="classOption4Frame" Style="{StaticResource OptionFrame}" Margin="10,0,10,0">
+                            <StackLayout>
+                                <Label x:Name="classOption4Name" Text="Bard" Style="{StaticResource Title}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption4Desc1" Text="Minstrel" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption4Desc2" Text="Hype Man" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption4Desc3" Text="Total BAMF" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame x:Name="classOption5Frame" Style="{StaticResource OptionFrame}" Margin="10,0,10,0">
+                            <StackLayout>
+                                <Label x:Name="classOption5Name" Text="Ranger" Style="{StaticResource Title}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption5Desc1" Text="Outdoorsman" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption5Desc2" Text="Naturalist" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption5Desc3" Text="Animal Tamer" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame x:Name="classOption6Frame" Style="{StaticResource OptionFrame}" Margin="10,0,10,0">
+                            <StackLayout>
+                                <Label x:Name="classOption6Name" Text="Cleric" Style="{StaticResource Title}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption6Desc1" Text="Healer" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption6Desc2" Text="Magic User" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption6Desc3" Text="Bandaid Box" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame x:Name="classOption7Frame" Style="{StaticResource OptionFrame}" Margin="10,0,10,0">
+                            <StackLayout>
+                                <Label x:Name="classOption7Name" Text="Wizard" Style="{StaticResource Title}" HorizontalOptions="Center" Margin="0,0,10,0"/>
+                                <Label x:Name="classOption7Desc1" Text="Spellcaster" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption7Desc2" Text="Smartypants" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                                <Label x:Name="classOption7Desc3" Text="Wild Mage" Style="{StaticResource MicroDescription}" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                    </FlexLayout>
+                </StackLayout>
+            </Frame>
+            <!--<Frame Style="{StaticResource WizardSectionFrame}">
+                <StackLayout>
+                    <FlexLayout x:Name="clericDetails">
+                        <StackLayout Margin="10">
+                            <Label Text="Can you provide more details about your class?" Style="{StaticResource RegularHeader}"/>
+                            <FlexLayout HorizontalOptions="FillAndExpand"
+                                        VerticalOptions="FillAndExpand"
+                                        x:Name="cleric">
+                                <StackLayout FlexLayout.Basis="40%"
+                                             Margin="10,0,10,0">
+                                    <Label Text="What deity or source do you draw your power from?" Style="{StaticResource Description}"/>
+                                    <Entry x:Name="deityName" Placeholder="The Knight" Style="{StaticResource WizardEntry}" />
+                                </StackLayout>
+                                <StackLayout FlexLayout.Basis="40%"
+                                             Margin="10,0,10,0">
+                                    <Label Text="What is their domain?" Style="{StaticResource Description}"/>
+                                    <Entry x:Name="dietyDomain" Placeholder="War" Style="{StaticResource WizardEntry}"/>
+                                </StackLayout>
+                            </FlexLayout>
+                        </StackLayout>
+                    </FlexLayout>
+                </StackLayout>
+            </Frame>-->
+            <Frame Style="{StaticResource WizardSectionFrame}">
+                <StackLayout>
+                    <Label Text="What is your character best at? What are they worst at?" Style="{StaticResource RegularHeader}" Margin="10,10,0,0"/>
+                    <Label Text="The following stats represent your abilities when under pressure. Please arrange them from best to worst, left to right." Style="{StaticResource Description}" Margin="10,0,0,20"/>
+                    <FlexLayout JustifyContent="Start"
+                                Margin="10,0,10,20"
+                                Wrap="Wrap">
+                        <Frame Style="{StaticResource OptionFrame}" Margin="10,0,20,0">
+                            <StackLayout>
+                                <Label Text="MIGHT" Style="{StaticResource StatHeaders}"/>
+                                <Label x:Name="mightDesc1" Text="Feats of Strength" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                                <Label x:Name="mightDesc2" Text="Melee Attacks" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                                <Label x:Name="mightDesc3" Text="Blocking Attacks" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Style="{StaticResource OptionFrame}" Margin="10,0,20,0">
+                            <StackLayout>
+                                <Label Text="AGILITY" Style="{StaticResource StatHeaders}"/>
+                                <Label x:Name="agilityDesc1" Text="Acrobatic Movements" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                                <Label x:Name="agilityDesc2" Text="Ranged Attacks" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                                <Label x:Name="agilityDesc3" Text="Dodging Attacks" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+
+                            </StackLayout>
+                        </Frame>
+                        <Frame Style="{StaticResource OptionFrame}" Margin="10,0,20,0">
+                            <StackLayout>
+                                <Label Text="VIGOR" Style="{StaticResource StatHeaders}"/>
+                                <Label x:Name="vigorDesc1" Text="Resisting Poison" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                                <Label x:Name="vigorDesc2" Text="Endurance" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Style="{StaticResource OptionFrame}" Margin="10,0,20,0">
+                            <StackLayout>
+                                <Label Text="INSIGHT" Style="{StaticResource StatHeaders}"/>
+                                <Label x:Name="insightDesc1" Text="Operating Machinery" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                                <Label x:Name="insightDesc2" Text="Using Magic" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Style="{StaticResource OptionFrame}" Margin="10,0,20,0">
+                            <StackLayout>
+                                <Label Text="SPIRIT" Style="{StaticResource StatHeaders}"/>
+                                <Label x:Name="spiritDesc1" Text="Social Interactions" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                                <Label x:Name="spiritDesc2" Text="Using Magic?" Style="{StaticResource MicroDescription}" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                            </StackLayout>
+                        </Frame>
+                    </FlexLayout>
+                </StackLayout>
+            </Frame>
+            <StackLayout>
+                <Frame x:Name="saveBtn"  Style="{StaticResource ButtonFrame}" HorizontalOptions="End" Margin="0,10,10,0" WidthRequest="120">
+                    <Label Text="Save" Style="{StaticResource StatHeaders}"/>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</xamForms:ReactiveContentPage>

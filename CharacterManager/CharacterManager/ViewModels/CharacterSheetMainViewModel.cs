@@ -7,11 +7,11 @@ namespace CharacterManager.ViewModels
     public class CharacterSheetMainViewModel: ReactiveObject
     {
         [Reactive]
-        public string Name { get; set; }
+        public Character CurrentCharacter { get; set; }
 
         public CharacterSheetMainViewModel()
         {
-      
+            //CurrentCharacter = System.IO.Load;
         }
     }
 }
